@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#AEC1C0;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#000000;stroke-width:1.1412;stroke-miterlimit:10;}
+	.st4{font-family:'Lato-Light';}
+	.st5{font-size:89px;}
+</style>
+<g id="embellishments">
+	<path class="st0" d="M352.7,107.6H47.3c-5,0-9,4.1-9,9v244.3c0,3.8,3.1,7,7,7h309.4c3.9,0,7-3.2,7-7V116.6
+		C361.7,111.6,357.6,107.6,352.7,107.6z M332.1,325.5c0,14.7-14.1,15.8-27.2,15.8s-228.2,0-228.2,0s-24,3.3-24-51.1
+		c0-54.3,0.5-117.9,0.5-117.9s9.2,31,47.8,45.7c0.5,0-42.9-48.4-49.7-95.1H319c0,0,13.6,1.6,13,10.9
+		c-0.5,9.2-124.5,146.2-140.8,158.7c0,1.1,133.2-93.5,140.8-102.7C332.6,189.7,332.1,310.8,332.1,325.5z"/>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="200" y1="107.587" x2="200" y2="82.0435">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.1" style="stop-color:#999999"/>
+			<stop  offset="0.2" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.3" style="stop-color:#999999"/>
+			<stop  offset="0.4" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5" style="stop-color:#999999"/>
+			<stop  offset="0.6" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.7" style="stop-color:#999999"/>
+			<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.9" style="stop-color:#999999"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</linearGradient>
+		<rect x="89.1" y="82" class="st1" width="221.7" height="25.5"/>
+	</g>
+</g>
+<g id="base">
+	<g>
+		<path d="M310.9,82v25.5H89.1V82H310.9 M316.9,76h-6H89.1h-6v6v25.5v6h6h221.7h6v-6V82V76L316.9,76z"/>
+	</g>
+	<path class="st2" d="M321.5,66.6H79.7c-1.7,0-3,1.3-3,3v27.7h247.8V69.6C324.5,67.9,323.2,66.6,321.5,66.6z"/>
+	<g>
+		<path d="M352.7,116.6v242.3H47.3V116.6H352.7 M352.7,107.6H47.3c-4.9,0-9,4.1-9,9v244.3c0,3.8,3.1,7,7,7h309.4c3.9,0,7-3.2,7-7
+			V116.6C361.7,111.6,357.6,107.6,352.7,107.6L352.7,107.6z"/>
+	</g>
+	<g>
+		
+			<rect x="71.2" y="186.9" transform="matrix(0.9948 -0.1014 0.1014 0.9948 -22.7462 21.5732)" class="st3" width="259.2" height="95.1"/>
+		<text transform="matrix(0.9948 -0.1014 0.1014 0.9948 110.6482 272.8066)" class="st4 st5">EDU</text>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,167 @@
+/*----- VARIABLES -----*/
+@primary: #269;
+@secondary: #CCC;
+@green: #28a745;
+@blue: #1f5b8e;
+
+
+/*----- MIXINS -----*/
+@import "less_mixins.less";
+@import "base.less";
+
+
+/*----- FONTS -----*/
+body {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bitter', sans-serif;
+}
+h1 {
+	padding: .7em 0;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	background: @blue;
+}
+.lead {
+	line-height: 1.3em;
+}
+
+section {
+	margin-bottom: 2em;
+	border-bottom: 1px solid @secondary;
+
+	p:empty {
+		display: none;
+	}
+}
+
+
+/*----- LAYOUT -----*/
+header.site-header {
+	color: #FFF;
+	background: @primary;
+}
+
+footer.site-footer {
+	padding: 2em 0;
+	overflow: auto;
+	color: #FFF;
+	background: @primary;
+
+	a {
+		color: #FFF;
+		
+		&:visited {
+			color: #FFF;
+		}
+	}
+}
+
+.container {
+	img {
+		border-radius: 5px;
+	}
+}
+
+.jumbotron {
+	height: 500px;
+	border-radius: 0;
+	.box-shadow(0 5px 7px #AAA);
+
+	h1 {
+		margin-top: 6em;
+		text-align: center;
+		color: white;
+		background: transparent;
+		.text-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
+		.large {
+			font-size: 3em;
+		}
+		@media screen and (max-width: 591px) {
+			.large {
+				font-size: 1.5em;
+			}
+		}
+	}
+}
+.jumbotron-home {
+	background: url('/emm-for-money/wp-content/uploads/2017/10/summer-2434933_1920.jpg') no-repeat 50% 40%;
+}
+.jumbotron-how {
+	background: url('/emm-for-money/wp-content/uploads/2018/01/kid-2736597_1920.jpg') no-repeat 50% 50%;
+}
+
+.benefits {
+	justify-content: space-around;
+}
+
+
+/*----- NAVIGATION -----*/
+.btn {
+	position: relative;
+}
+.btn-green {
+	color: @green;
+	border: 5px solid @green;
+	background: transparent;
+	&:visited {
+		color: @green;
+	}
+	&:hover {
+		border-color: @green;
+	}
+}
+.shutter-horiz {
+  &::before {
+    content: '';
+    height: 0;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: @green;
+    transition: all .1s ease-out;
+  }
+  &:hover {
+    color: white;
+    &:before {
+      height: 100%;
+      top: 0;
+    }
+  }
+}
+
+
+/*----- FORM HELPER STYLES -----*/
+
+
+
+/*----- HELPER CLASSES ------*/
+.card {
+	text-align: center;
+	border: none;
+}
+.secondary-color {
+	color: @blue;
+}
+
+
+/*----- IMPORTED COMPONENT STYLES ------*/
+
+@import "tool-styles.less";
+
+
+
+/*----- RESPONSIVE ADJUSTMENTS -----*/
+
+@media only screen and (max-width: 480px) {
+
+}
